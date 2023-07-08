@@ -1,6 +1,6 @@
 Task Management App
 
-A task management web application built with React that allows you to organize your tasks into different lists and track their progress. You can easily add, update, and delete tasks, as well as move them between lists using drag and drop functionality. Additionally, the app provides the ability to export the task lists to an Excel file for further analysis or sharing.
+A task management responsive web application built with React that allows us to organize our tasks into different lists and track their progress. we can easily add, update, and delete tasks, as well as move them between lists using drag and drop functionality. Additionally, the app provides the ability to export the task lists to an Excel file for further analysis or sharing.
 
 => Features
 . Create multiple task lists with customizable titles.
