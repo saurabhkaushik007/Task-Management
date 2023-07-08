@@ -123,3 +123,69 @@
   margin-left: auto;
 }
 
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .task-lists {
+    flex-direction: column;
+  }
+
+  .task-list {
+    margin: 10px 0;
+  }
+}
+
+/* Mobile Styles */
+@media (max-width: 480px) {
+  .app {
+    padding: 10px;
+  }
+
+  .app-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .task-list {
+    margin: 5px 0;
+  }
+
+  .list-title {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+
+  .task-cards {
+    min-height: 150px;
+  }
+
+  .task-card .task-title {
+    font-size: 14px;
+  }
+
+  .edit-form {
+    margin-bottom: 5px;
+  }
+
+  .edit-form input {
+    padding: 3px;
+    margin-right: 5px;
+  }
+
+  .add-task-form {
+    margin-top: 5px;
+  }
+
+  .add-task-form input {
+    padding: 3px;
+    margin-right: 5px;
+  }
+
+  .export-button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+}
+
+
+
